@@ -12,19 +12,21 @@ namespace Cabelo_Software.Model
         static string server = "localhost";
         static string db = "hair";
         static string user = "postgres";
-        static string psw = "123456";
+        static string password = "123456";
         static string port = "5432";
 
 
-        string connectionString = String.Format("SERVER={0},DB={1},USER={2},PASSWORD={3},PORT={4}",
-                server, 
-                db,
-                user,
-                psw,
-                port);
-    
+        string connectionString = String.Format("Host={0};Port={1};Username={2};Password={3};Database={4};",
+            server,
+            port,
+            user,
+            password,
+            db);
 
-        public async void openConn()
+        public string getConnectionString(){ return this.connectionString; }
+
+
+        public async void OpenConn()
         {
             try
             {
