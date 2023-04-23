@@ -21,6 +21,8 @@ namespace Cabelo_Software
         {
             InitializeComponent();
         }
+
+
         private void buttonCancel_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -34,6 +36,7 @@ namespace Cabelo_Software
             DataTable dataT = new DataTable();
             NpgsqlDataAdapter da = new NpgsqlDataAdapter();
             NpgsqlDataReader reader;
+           
 
             var stcx = dt.getConnectionString();
 
@@ -76,12 +79,13 @@ namespace Cabelo_Software
                             while (reader.Read()) 
                             {
                                 Verify.NomeUsuario = Convert.ToString(reader["name"]);
+                                
                             }
-                            MessageBox.Show("Bem-Vindo Novamente "+Verify.NomeUsuario);
+
                             Form1 f1 = new Form1();
+                            f1.setNomeFunc(Verify.NomeUsuario);
+                            f1.Closed += (s, args) => this.Close();
                             f1.ShowDialog();
-                            this.Close();
-                            return;
                         }
                         MessageBox.Show("Erro a Logar!");
                     }
@@ -90,6 +94,8 @@ namespace Cabelo_Software
             catch (Exception ex)
             {
                 MessageBox.Show("Error ->"+ ex.Message);
+                conn.Close();
+                return;
             }
 
         }

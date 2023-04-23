@@ -29,27 +29,25 @@ namespace Cabelo_Software.Business
         Database dt = new Database();
         NpgsqlCommand cmd;
         NpgsqlConnection conn;
-        DataTable dataT;
         Funcionario f = new Funcionario();
         FormCabelo fc = new FormCabelo();
-
-        public async void InsertAgendaCabelo(Agenda c)
+        Agenda c = new Agenda();
+        public void InsertAgendaCabelo()
         {
             var stcx = dt.getConnectionString();
-
-
             try
             {
                 using (conn = new NpgsqlConnection(stcx))
                 {
                     conn.Open();
-                    string query = ("INSERT INTO agenda(dt_agenda,nm_cliente,tipo,nm_funcionario) VALUES (@dt_agenda,@nm_cliente,@tipo,@nm_funcionario)");
+                    string query = ("INSERT INTO agenda(dt_agenda,hora,nm_cliente,tipo,nm_funcionario) VALUES (@dt_agenda,@hora,@nm_cliente,@tipo,@nm_funcionario)");
                     using (cmd = new NpgsqlCommand(query, conn))
                     {
-                        //cmd.Parameters.AddWithValue("@dt_agenda", fc.getCalendar());
-                        cmd.Parameters.AddWithValue("@nm_cliente", c.getNm_cliente());
+                        cmd.Parameters.AddWithValue("@dt_agenda", fc.getCalendar());
+                    //    cmd.Parameters.AddWithValue("@hora", fc.getHora());
+                        cmd.Parameters.AddWithValue("@nm_cliente", fc.getCliNome());
                         cmd.Parameters.AddWithValue("@tipo", c.getTipo());           // <---  Verificar Lógica de puxar o tipo selecionado
-                        cmd.Parameters.AddWithValue("@nm_funcionario", f.getName()); // <---  Puxar da classe Funcionario o mesmo que se encontra logado no sistema.
+                        cmd.Parameters.AddWithValue("@nm_funcionario", Verify.NomeUsuario); // <---  Puxar da classe Funcionario o mesmo que se encontra logado no sistema.
                         cmd.ExecuteNonQuery();
                         conn.Close();
                     }

@@ -34,181 +34,218 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
-            label1 = new Label();
-            label2 = new Label();
-            americanoBox1 = new CheckBox();
-            desfarçadoBox2 = new CheckBox();
-            infantilBox3 = new CheckBox();
-            platinaldoBox4 = new CheckBox();
-            navalhadoBox5 = new CheckBox();
-            outroBox6 = new CheckBox();
-            agendarCabelo = new Guna.UI2.WinForms.Guna2Button();
-            guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
-            SuspendLayout();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            this.nm_cliente = new Guna.UI2.WinForms.Guna2TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.americanoBox1 = new System.Windows.Forms.CheckBox();
+            this.desfarçadoBox2 = new System.Windows.Forms.CheckBox();
+            this.infantilBox3 = new System.Windows.Forms.CheckBox();
+            this.platinaldoBox4 = new System.Windows.Forms.CheckBox();
+            this.navalhadoBox5 = new System.Windows.Forms.CheckBox();
+            this.outroBox6 = new System.Windows.Forms.CheckBox();
+            this.agendarCabelo = new Guna.UI2.WinForms.Guna2Button();
+            this.hairCalendar = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            this.hr_ag = new Guna.UI2.WinForms.Guna2TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.SuspendLayout();
             // 
-            // guna2TextBox1
+            // nm_cliente
             // 
-            guna2TextBox1.CustomizableEdges = customizableEdges1;
-            guna2TextBox1.DefaultText = "";
-            guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox1.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox1.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox1.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2TextBox1.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox1.Location = new Point(21, 41);
-            guna2TextBox1.Name = "guna2TextBox1";
-            guna2TextBox1.PasswordChar = '\0';
-            guna2TextBox1.PlaceholderText = "Insira o Nome do Cliente";
-            guna2TextBox1.SelectedText = "";
-            guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            guna2TextBox1.Size = new Size(200, 28);
-            guna2TextBox1.TabIndex = 0;
+            this.nm_cliente.CustomizableEdges = customizableEdges1;
+            this.nm_cliente.DefaultText = "";
+            this.nm_cliente.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.nm_cliente.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.nm_cliente.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.nm_cliente.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.nm_cliente.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.nm_cliente.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.nm_cliente.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.nm_cliente.Location = new System.Drawing.Point(21, 41);
+            this.nm_cliente.Name = "nm_cliente";
+            this.nm_cliente.PasswordChar = '\0';
+            this.nm_cliente.PlaceholderText = "Insira o Nome do Cliente";
+            this.nm_cliente.SelectedText = "";
+            this.nm_cliente.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            this.nm_cliente.Size = new System.Drawing.Size(200, 28);
+            this.nm_cliente.TabIndex = 0;
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(21, 23);
-            label1.Name = "label1";
-            label1.Size = new Size(44, 15);
-            label1.TabIndex = 1;
-            label1.Text = "Nome:";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(21, 23);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(44, 15);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Nome:";
             // 
             // label2
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.Location = new Point(21, 90);
-            label2.Name = "label2";
-            label2.Size = new Size(95, 15);
-            label2.TabIndex = 2;
-            label2.Text = "TIPO DE CORTE:";
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(21, 157);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(95, 15);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "TIPO DE CORTE:";
             // 
             // americanoBox1
             // 
-            americanoBox1.AutoSize = true;
-            americanoBox1.Location = new Point(21, 126);
-            americanoBox1.Name = "americanoBox1";
-            americanoBox1.Size = new Size(84, 19);
-            americanoBox1.TabIndex = 3;
-            americanoBox1.Text = "Americano";
-            americanoBox1.UseVisualStyleBackColor = true;
+            this.americanoBox1.AutoSize = true;
+            this.americanoBox1.Location = new System.Drawing.Point(21, 193);
+            this.americanoBox1.Name = "americanoBox1";
+            this.americanoBox1.Size = new System.Drawing.Size(84, 19);
+            this.americanoBox1.TabIndex = 3;
+            this.americanoBox1.Text = "Americano";
+            this.americanoBox1.UseVisualStyleBackColor = true;
             // 
             // desfarçadoBox2
             // 
-            desfarçadoBox2.AutoSize = true;
-            desfarçadoBox2.Location = new Point(21, 173);
-            desfarçadoBox2.Name = "desfarçadoBox2";
-            desfarçadoBox2.Size = new Size(85, 19);
-            desfarçadoBox2.TabIndex = 4;
-            desfarçadoBox2.Text = "Desfarçado";
-            desfarçadoBox2.UseVisualStyleBackColor = true;
+            this.desfarçadoBox2.AutoSize = true;
+            this.desfarçadoBox2.Location = new System.Drawing.Point(21, 240);
+            this.desfarçadoBox2.Name = "desfarçadoBox2";
+            this.desfarçadoBox2.Size = new System.Drawing.Size(85, 19);
+            this.desfarçadoBox2.TabIndex = 4;
+            this.desfarçadoBox2.Text = "Desfarçado";
+            this.desfarçadoBox2.UseVisualStyleBackColor = true;
             // 
             // infantilBox3
             // 
-            infantilBox3.AutoSize = true;
-            infantilBox3.Location = new Point(126, 126);
-            infantilBox3.Name = "infantilBox3";
-            infantilBox3.Size = new Size(95, 19);
-            infantilBox3.TabIndex = 5;
-            infantilBox3.Text = "Corte Infantil";
-            infantilBox3.UseVisualStyleBackColor = true;
+            this.infantilBox3.AutoSize = true;
+            this.infantilBox3.Location = new System.Drawing.Point(126, 193);
+            this.infantilBox3.Name = "infantilBox3";
+            this.infantilBox3.Size = new System.Drawing.Size(95, 19);
+            this.infantilBox3.TabIndex = 5;
+            this.infantilBox3.Text = "Corte Infantil";
+            this.infantilBox3.UseVisualStyleBackColor = true;
             // 
             // platinaldoBox4
             // 
-            platinaldoBox4.AutoSize = true;
-            platinaldoBox4.Location = new Point(126, 173);
-            platinaldoBox4.Name = "platinaldoBox4";
-            platinaldoBox4.Size = new Size(76, 19);
-            platinaldoBox4.TabIndex = 6;
-            platinaldoBox4.Text = "Platinado";
-            platinaldoBox4.UseVisualStyleBackColor = true;
+            this.platinaldoBox4.AutoSize = true;
+            this.platinaldoBox4.Location = new System.Drawing.Point(126, 240);
+            this.platinaldoBox4.Name = "platinaldoBox4";
+            this.platinaldoBox4.Size = new System.Drawing.Size(76, 19);
+            this.platinaldoBox4.TabIndex = 6;
+            this.platinaldoBox4.Text = "Platinado";
+            this.platinaldoBox4.UseVisualStyleBackColor = true;
             // 
             // navalhadoBox5
             // 
-            navalhadoBox5.AutoSize = true;
-            navalhadoBox5.Location = new Point(21, 217);
-            navalhadoBox5.Name = "navalhadoBox5";
-            navalhadoBox5.Size = new Size(83, 19);
-            navalhadoBox5.TabIndex = 7;
-            navalhadoBox5.Text = "Navalhado";
-            navalhadoBox5.UseVisualStyleBackColor = true;
+            this.navalhadoBox5.AutoSize = true;
+            this.navalhadoBox5.Location = new System.Drawing.Point(21, 284);
+            this.navalhadoBox5.Name = "navalhadoBox5";
+            this.navalhadoBox5.Size = new System.Drawing.Size(83, 19);
+            this.navalhadoBox5.TabIndex = 7;
+            this.navalhadoBox5.Text = "Navalhado";
+            this.navalhadoBox5.UseVisualStyleBackColor = true;
             // 
             // outroBox6
             // 
-            outroBox6.AutoSize = true;
-            outroBox6.Location = new Point(126, 217);
-            outroBox6.Name = "outroBox6";
-            outroBox6.Size = new Size(57, 19);
-            outroBox6.TabIndex = 8;
-            outroBox6.Text = "Outro";
-            outroBox6.UseVisualStyleBackColor = true;
+            this.outroBox6.AutoSize = true;
+            this.outroBox6.Location = new System.Drawing.Point(126, 284);
+            this.outroBox6.Name = "outroBox6";
+            this.outroBox6.Size = new System.Drawing.Size(57, 19);
+            this.outroBox6.TabIndex = 8;
+            this.outroBox6.Text = "Outro";
+            this.outroBox6.UseVisualStyleBackColor = true;
             // 
             // agendarCabelo
             // 
-            agendarCabelo.CustomizableEdges = customizableEdges3;
-            agendarCabelo.DisabledState.BorderColor = Color.DarkGray;
-            agendarCabelo.DisabledState.CustomBorderColor = Color.DarkGray;
-            agendarCabelo.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            agendarCabelo.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            agendarCabelo.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            agendarCabelo.ForeColor = Color.White;
-            agendarCabelo.Location = new Point(375, 268);
-            agendarCabelo.Name = "agendarCabelo";
-            agendarCabelo.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            agendarCabelo.Size = new Size(180, 45);
-            agendarCabelo.TabIndex = 9;
-            agendarCabelo.Text = "AGENDAR";
-            agendarCabelo.Click += agendarCabelo_Click;
+            this.agendarCabelo.CustomizableEdges = customizableEdges3;
+            this.agendarCabelo.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.agendarCabelo.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.agendarCabelo.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.agendarCabelo.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.agendarCabelo.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.agendarCabelo.ForeColor = System.Drawing.Color.White;
+            this.agendarCabelo.Location = new System.Drawing.Point(375, 264);
+            this.agendarCabelo.Name = "agendarCabelo";
+            this.agendarCabelo.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            this.agendarCabelo.Size = new System.Drawing.Size(180, 45);
+            this.agendarCabelo.TabIndex = 9;
+            this.agendarCabelo.Text = "AGENDAR";
+            this.agendarCabelo.Click += new System.EventHandler(this.agendarCabelo_Click);
             // 
-            // guna2DateTimePicker1
+            // hairCalendar
             // 
-            guna2DateTimePicker1.Checked = true;
-            guna2DateTimePicker1.CustomizableEdges = customizableEdges5;
-            guna2DateTimePicker1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2DateTimePicker1.Format = DateTimePickerFormat.Long;
-            guna2DateTimePicker1.Location = new Point(328, 41);
-            guna2DateTimePicker1.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
-            guna2DateTimePicker1.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
-            guna2DateTimePicker1.Name = "guna2DateTimePicker1";
-            guna2DateTimePicker1.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            guna2DateTimePicker1.Size = new Size(227, 36);
-            guna2DateTimePicker1.TabIndex = 12;
-            guna2DateTimePicker1.Value = new DateTime(2023, 4, 21, 16, 27, 32, 589);
+            this.hairCalendar.Checked = true;
+            this.hairCalendar.CustomizableEdges = customizableEdges5;
+            this.hairCalendar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.hairCalendar.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.hairCalendar.Location = new System.Drawing.Point(328, 41);
+            this.hairCalendar.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.hairCalendar.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.hairCalendar.Name = "hairCalendar";
+            this.hairCalendar.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            this.hairCalendar.Size = new System.Drawing.Size(227, 36);
+            this.hairCalendar.TabIndex = 12;
+            this.hairCalendar.Value = new System.DateTime(2023, 4, 21, 16, 27, 32, 589);
+            // 
+            // hr_ag
+            // 
+            this.hr_ag.CustomizableEdges = customizableEdges7;
+            this.hr_ag.DefaultText = "";
+            this.hr_ag.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.hr_ag.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.hr_ag.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.hr_ag.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.hr_ag.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.hr_ag.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.hr_ag.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.hr_ag.Location = new System.Drawing.Point(21, 97);
+            this.hr_ag.Name = "hr_ag";
+            this.hr_ag.PasswordChar = '\0';
+            this.hr_ag.PlaceholderText = "Insira a hora do agendamento";
+            this.hr_ag.SelectedText = "";
+            this.hr_ag.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            this.hr_ag.Size = new System.Drawing.Size(200, 28);
+            this.hr_ag.TabIndex = 13;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label3.Location = new System.Drawing.Point(21, 79);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(37, 15);
+            this.label3.TabIndex = 14;
+            this.label3.Text = "Hora:";
             // 
             // FormCabelo
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(584, 335);
-            Controls.Add(guna2DateTimePicker1);
-            Controls.Add(agendarCabelo);
-            Controls.Add(outroBox6);
-            Controls.Add(navalhadoBox5);
-            Controls.Add(platinaldoBox4);
-            Controls.Add(infantilBox3);
-            Controls.Add(desfarçadoBox2);
-            Controls.Add(americanoBox1);
-            Controls.Add(label2);
-            Controls.Add(label1);
-            Controls.Add(guna2TextBox1);
-            MaximizeBox = false;
-            MdiChildrenMinimizedAnchorBottom = false;
-            MinimizeBox = false;
-            Name = "FormCabelo";
-            ShowIcon = false;
-            StartPosition = FormStartPosition.CenterScreen;
-            Text = "Cabelo";
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(584, 335);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.hr_ag);
+            this.Controls.Add(this.hairCalendar);
+            this.Controls.Add(this.agendarCabelo);
+            this.Controls.Add(this.outroBox6);
+            this.Controls.Add(this.navalhadoBox5);
+            this.Controls.Add(this.platinaldoBox4);
+            this.Controls.Add(this.infantilBox3);
+            this.Controls.Add(this.desfarçadoBox2);
+            this.Controls.Add(this.americanoBox1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.nm_cliente);
+            this.MaximizeBox = false;
+            this.MdiChildrenMinimizedAnchorBottom = false;
+            this.MinimizeBox = false;
+            this.Name = "FormCabelo";
+            this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Cabelo";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
 
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        private Guna.UI2.WinForms.Guna2TextBox nm_cliente;
         private Label label1;
         private Label label2;
         private CheckBox americanoBox1;
@@ -218,6 +255,8 @@
         private CheckBox navalhadoBox5;
         private CheckBox outroBox6;
         private Guna.UI2.WinForms.Guna2Button agendarCabelo;
-        private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker1;
+        private Guna.UI2.WinForms.Guna2DateTimePicker hairCalendar;
+        private Guna.UI2.WinForms.Guna2TextBox hr_ag;
+        private Label label3;
     }
 }

@@ -9,5 +9,6 @@ namespace Cabelo_Software
     internal static class Verify
     {
         public static string NomeUsuario;
+        public static string NomeClientes;
     }
 }

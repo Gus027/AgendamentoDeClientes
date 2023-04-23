@@ -28,14 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormCadastroFunc));
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.nm_func = new Guna.UI2.WinForms.Guna2TextBox();
             this.user_func = new Guna.UI2.WinForms.Guna2TextBox();
@@ -43,11 +45,12 @@
             this.label2 = new System.Windows.Forms.Label();
             this.pssw_func = new Guna.UI2.WinForms.Guna2TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.btnBack = new Guna.UI2.WinForms.Guna2ImageButton();
             this.SuspendLayout();
             // 
             // guna2Button1
             // 
-            this.guna2Button1.CustomizableEdges = customizableEdges1;
+            this.guna2Button1.CustomizableEdges = customizableEdges10;
             this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -56,7 +59,7 @@
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.Location = new System.Drawing.Point(190, 259);
             this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            this.guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges11;
             this.guna2Button1.Size = new System.Drawing.Size(180, 45);
             this.guna2Button1.TabIndex = 0;
             this.guna2Button1.Text = "Cadastrar";
@@ -64,7 +67,7 @@
             // 
             // nm_func
             // 
-            this.nm_func.CustomizableEdges = customizableEdges3;
+            this.nm_func.CustomizableEdges = customizableEdges12;
             this.nm_func.DefaultText = "";
             this.nm_func.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.nm_func.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
@@ -78,13 +81,13 @@
             this.nm_func.PasswordChar = '\0';
             this.nm_func.PlaceholderText = "";
             this.nm_func.SelectedText = "";
-            this.nm_func.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            this.nm_func.ShadowDecoration.CustomizableEdges = customizableEdges13;
             this.nm_func.Size = new System.Drawing.Size(250, 36);
             this.nm_func.TabIndex = 1;
             // 
             // user_func
             // 
-            this.user_func.CustomizableEdges = customizableEdges5;
+            this.user_func.CustomizableEdges = customizableEdges14;
             this.user_func.DefaultText = "";
             this.user_func.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.user_func.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
@@ -98,7 +101,7 @@
             this.user_func.PasswordChar = '\0';
             this.user_func.PlaceholderText = "";
             this.user_func.SelectedText = "";
-            this.user_func.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            this.user_func.ShadowDecoration.CustomizableEdges = customizableEdges15;
             this.user_func.Size = new System.Drawing.Size(250, 36);
             this.user_func.TabIndex = 2;
             // 
@@ -122,7 +125,7 @@
             // 
             // pssw_func
             // 
-            this.pssw_func.CustomizableEdges = customizableEdges7;
+            this.pssw_func.CustomizableEdges = customizableEdges16;
             this.pssw_func.DefaultText = "";
             this.pssw_func.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.pssw_func.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
@@ -136,7 +139,7 @@
             this.pssw_func.PasswordChar = '\0';
             this.pssw_func.PlaceholderText = "";
             this.pssw_func.SelectedText = "";
-            this.pssw_func.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            this.pssw_func.ShadowDecoration.CustomizableEdges = customizableEdges17;
             this.pssw_func.Size = new System.Drawing.Size(250, 36);
             this.pssw_func.TabIndex = 5;
             // 
@@ -149,11 +152,27 @@
             this.label3.TabIndex = 6;
             this.label3.Text = "Senha:";
             // 
+            // btnBack
+            // 
+            this.btnBack.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.btnBack.HoverState.ImageSize = new System.Drawing.Size(64, 64);
+            this.btnBack.Image = ((System.Drawing.Image)(resources.GetObject("btnBack.Image")));
+            this.btnBack.ImageOffset = new System.Drawing.Point(0, 0);
+            this.btnBack.ImageRotate = 0F;
+            this.btnBack.Location = new System.Drawing.Point(12, 12);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.PressedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.btnBack.ShadowDecoration.CustomizableEdges = customizableEdges18;
+            this.btnBack.Size = new System.Drawing.Size(64, 54);
+            this.btnBack.TabIndex = 7;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            // 
             // FormCadastroFunc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(590, 350);
+            this.Controls.Add(this.btnBack);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.pssw_func);
             this.Controls.Add(this.label2);
@@ -161,12 +180,11 @@
             this.Controls.Add(this.user_func);
             this.Controls.Add(this.nm_func);
             this.Controls.Add(this.guna2Button1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FormCadastroFunc";
+            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FormCadastroFunc";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -181,5 +199,6 @@
         private Label label2;
         private Guna.UI2.WinForms.Guna2TextBox pssw_func;
         private Label label3;
+        private Guna.UI2.WinForms.Guna2ImageButton btnBack;
     }
 }

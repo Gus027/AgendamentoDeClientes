@@ -15,7 +15,6 @@ namespace Cabelo_Software.Business
         Database dt = new Database();
         NpgsqlCommand cmd;
         NpgsqlConnection conn;
-        DataTable dataT;
 
 
         public FuncionarioDAO() { }

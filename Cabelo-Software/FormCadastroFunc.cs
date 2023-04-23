@@ -31,5 +31,10 @@ namespace Cabelo_Software
             this.Close();
             
         }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
