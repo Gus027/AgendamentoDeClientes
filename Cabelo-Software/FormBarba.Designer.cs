@@ -36,186 +36,185 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            this.barb_box = new System.Windows.Forms.CheckBox();
-            this.sobran_box = new System.Windows.Forms.CheckBox();
-            this.pigCab_box = new System.Windows.Forms.CheckBox();
-            this.pigBarb_box = new System.Windows.Forms.CheckBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.nm_cliente = new Guna.UI2.WinForms.Guna2TextBox();
-            this.agendarBarba = new Guna.UI2.WinForms.Guna2Button();
-            this.hr_ag = new Guna.UI2.WinForms.Guna2TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.hairCalendar = new Guna.UI2.WinForms.Guna2DateTimePicker();
-            this.SuspendLayout();
+            barb_box = new CheckBox();
+            sobran_box = new CheckBox();
+            pigCab_box = new CheckBox();
+            pigBarb_box = new CheckBox();
+            label2 = new Label();
+            label1 = new Label();
+            nm_cliente = new Guna.UI2.WinForms.Guna2TextBox();
+            agendarBarba = new Guna.UI2.WinForms.Guna2Button();
+            hr_ag = new Guna.UI2.WinForms.Guna2TextBox();
+            label3 = new Label();
+            hairCalendar = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            SuspendLayout();
             // 
             // barb_box
             // 
-            this.barb_box.AutoSize = true;
-            this.barb_box.Location = new System.Drawing.Point(156, 255);
-            this.barb_box.Name = "barb_box";
-            this.barb_box.Size = new System.Drawing.Size(56, 19);
-            this.barb_box.TabIndex = 15;
-            this.barb_box.Text = "Barba";
-            this.barb_box.UseVisualStyleBackColor = true;
+            barb_box.AutoSize = true;
+            barb_box.Location = new Point(156, 255);
+            barb_box.Name = "barb_box";
+            barb_box.Size = new Size(56, 19);
+            barb_box.TabIndex = 15;
+            barb_box.Text = "Barba";
+            barb_box.UseVisualStyleBackColor = true;
             // 
             // sobran_box
             // 
-            this.sobran_box.AutoSize = true;
-            this.sobran_box.Location = new System.Drawing.Point(156, 208);
-            this.sobran_box.Name = "sobran_box";
-            this.sobran_box.Size = new System.Drawing.Size(91, 19);
-            this.sobran_box.TabIndex = 14;
-            this.sobran_box.Text = "Sobrancelha";
-            this.sobran_box.UseVisualStyleBackColor = true;
+            sobran_box.AutoSize = true;
+            sobran_box.Location = new Point(156, 208);
+            sobran_box.Name = "sobran_box";
+            sobran_box.Size = new Size(91, 19);
+            sobran_box.TabIndex = 14;
+            sobran_box.Text = "Sobrancelha";
+            sobran_box.UseVisualStyleBackColor = true;
             // 
             // pigCab_box
             // 
-            this.pigCab_box.AutoSize = true;
-            this.pigCab_box.Location = new System.Drawing.Point(26, 255);
-            this.pigCab_box.Name = "pigCab_box";
-            this.pigCab_box.Size = new System.Drawing.Size(121, 19);
-            this.pigCab_box.TabIndex = 13;
-            this.pigCab_box.Text = "Pigmentar Cabelo";
-            this.pigCab_box.UseVisualStyleBackColor = true;
+            pigCab_box.AutoSize = true;
+            pigCab_box.Location = new Point(26, 255);
+            pigCab_box.Name = "pigCab_box";
+            pigCab_box.Size = new Size(121, 19);
+            pigCab_box.TabIndex = 13;
+            pigCab_box.Text = "Pigmentar Cabelo";
+            pigCab_box.UseVisualStyleBackColor = true;
             // 
             // pigBarb_box
             // 
-            this.pigBarb_box.AutoSize = true;
-            this.pigBarb_box.Location = new System.Drawing.Point(26, 208);
-            this.pigBarb_box.Name = "pigBarb_box";
-            this.pigBarb_box.Size = new System.Drawing.Size(114, 19);
-            this.pigBarb_box.TabIndex = 12;
-            this.pigBarb_box.Text = "Pigmentar Barba";
-            this.pigBarb_box.UseVisualStyleBackColor = true;
+            pigBarb_box.AutoSize = true;
+            pigBarb_box.Location = new Point(26, 208);
+            pigBarb_box.Name = "pigBarb_box";
+            pigBarb_box.Size = new Size(114, 19);
+            pigBarb_box.TabIndex = 12;
+            pigBarb_box.Text = "Pigmentar Barba";
+            pigBarb_box.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(26, 179);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(95, 15);
-            this.label2.TabIndex = 11;
-            this.label2.Text = "TIPO DE CORTE:";
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.Location = new Point(26, 179);
+            label2.Name = "label2";
+            label2.Size = new Size(95, 15);
+            label2.TabIndex = 11;
+            label2.Text = "TIPO DE CORTE:";
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(22, 47);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 15);
-            this.label1.TabIndex = 10;
-            this.label1.Text = "Nome:";
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(22, 47);
+            label1.Name = "label1";
+            label1.Size = new Size(44, 15);
+            label1.TabIndex = 10;
+            label1.Text = "Nome:";
             // 
             // nm_cliente
             // 
-            this.nm_cliente.CustomizableEdges = customizableEdges1;
-            this.nm_cliente.DefaultText = "";
-            this.nm_cliente.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.nm_cliente.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.nm_cliente.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.nm_cliente.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.nm_cliente.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.nm_cliente.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.nm_cliente.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.nm_cliente.Location = new System.Drawing.Point(22, 65);
-            this.nm_cliente.Name = "nm_cliente";
-            this.nm_cliente.PasswordChar = '\0';
-            this.nm_cliente.PlaceholderText = "Insira o Nome do Cliente";
-            this.nm_cliente.SelectedText = "";
-            this.nm_cliente.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            this.nm_cliente.Size = new System.Drawing.Size(200, 28);
-            this.nm_cliente.TabIndex = 9;
+            nm_cliente.CustomizableEdges = customizableEdges1;
+            nm_cliente.DefaultText = "";
+            nm_cliente.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            nm_cliente.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            nm_cliente.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            nm_cliente.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            nm_cliente.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            nm_cliente.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            nm_cliente.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            nm_cliente.Location = new Point(22, 65);
+            nm_cliente.Name = "nm_cliente";
+            nm_cliente.PasswordChar = '\0';
+            nm_cliente.PlaceholderText = "Insira o Nome do Cliente";
+            nm_cliente.SelectedText = "";
+            nm_cliente.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            nm_cliente.Size = new Size(200, 28);
+            nm_cliente.TabIndex = 9;
             // 
             // agendarBarba
             // 
-            this.agendarBarba.CustomizableEdges = customizableEdges3;
-            this.agendarBarba.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.agendarBarba.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.agendarBarba.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.agendarBarba.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.agendarBarba.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.agendarBarba.ForeColor = System.Drawing.Color.White;
-            this.agendarBarba.Location = new System.Drawing.Point(215, 293);
-            this.agendarBarba.Name = "agendarBarba";
-            this.agendarBarba.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            this.agendarBarba.Size = new System.Drawing.Size(180, 45);
-            this.agendarBarba.TabIndex = 17;
-            this.agendarBarba.Text = "AGENDAR";
-            this.agendarBarba.Click += new System.EventHandler(this.agendarBarba_Click);
+            agendarBarba.CustomizableEdges = customizableEdges3;
+            agendarBarba.DisabledState.BorderColor = Color.DarkGray;
+            agendarBarba.DisabledState.CustomBorderColor = Color.DarkGray;
+            agendarBarba.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            agendarBarba.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            agendarBarba.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            agendarBarba.ForeColor = Color.White;
+            agendarBarba.Location = new Point(215, 293);
+            agendarBarba.Name = "agendarBarba";
+            agendarBarba.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            agendarBarba.Size = new Size(180, 45);
+            agendarBarba.TabIndex = 17;
+            agendarBarba.Text = "AGENDAR";
+            agendarBarba.Click += agendarBarba_Click;
             // 
             // hr_ag
             // 
-            this.hr_ag.CustomizableEdges = customizableEdges5;
-            this.hr_ag.DefaultText = "";
-            this.hr_ag.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.hr_ag.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.hr_ag.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.hr_ag.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.hr_ag.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.hr_ag.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.hr_ag.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.hr_ag.Location = new System.Drawing.Point(22, 127);
-            this.hr_ag.Name = "hr_ag";
-            this.hr_ag.PasswordChar = '\0';
-            this.hr_ag.PlaceholderText = "Insira a hora do agendamento";
-            this.hr_ag.SelectedText = "";
-            this.hr_ag.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            this.hr_ag.Size = new System.Drawing.Size(200, 28);
-            this.hr_ag.TabIndex = 18;
+            hr_ag.CustomizableEdges = customizableEdges5;
+            hr_ag.DefaultText = "";
+            hr_ag.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            hr_ag.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            hr_ag.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            hr_ag.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            hr_ag.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            hr_ag.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            hr_ag.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            hr_ag.Location = new Point(22, 127);
+            hr_ag.Name = "hr_ag";
+            hr_ag.PasswordChar = '\0';
+            hr_ag.PlaceholderText = "Insira a hora do agendamento";
+            hr_ag.SelectedText = "";
+            hr_ag.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            hr_ag.Size = new Size(200, 28);
+            hr_ag.TabIndex = 18;
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(22, 109);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(37, 15);
-            this.label3.TabIndex = 19;
-            this.label3.Text = "Hora:";
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.Location = new Point(22, 109);
+            label3.Name = "label3";
+            label3.Size = new Size(37, 15);
+            label3.TabIndex = 19;
+            label3.Text = "Hora:";
             // 
             // hairCalendar
             // 
-            this.hairCalendar.Checked = true;
-            this.hairCalendar.CustomizableEdges = customizableEdges7;
-            this.hairCalendar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.hairCalendar.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.hairCalendar.Location = new System.Drawing.Point(361, 65);
-            this.hairCalendar.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.hairCalendar.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.hairCalendar.Name = "hairCalendar";
-            this.hairCalendar.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            this.hairCalendar.Size = new System.Drawing.Size(200, 36);
-            this.hairCalendar.TabIndex = 20;
-            this.hairCalendar.Value = new System.DateTime(2023, 4, 22, 20, 19, 53, 745);
+            hairCalendar.Checked = true;
+            hairCalendar.CustomizableEdges = customizableEdges7;
+            hairCalendar.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            hairCalendar.Format = DateTimePickerFormat.Long;
+            hairCalendar.Location = new Point(332, 65);
+            hairCalendar.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
+            hairCalendar.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
+            hairCalendar.Name = "hairCalendar";
+            hairCalendar.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            hairCalendar.Size = new Size(200, 36);
+            hairCalendar.TabIndex = 20;
+            hairCalendar.Value = new DateTime(2023, 4, 22, 20, 19, 53, 745);
             // 
             // FormBarba
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(590, 350);
-            this.Controls.Add(this.hairCalendar);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.hr_ag);
-            this.Controls.Add(this.agendarBarba);
-            this.Controls.Add(this.barb_box);
-            this.Controls.Add(this.sobran_box);
-            this.Controls.Add(this.pigCab_box);
-            this.Controls.Add(this.pigBarb_box);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.nm_cliente);
-            this.MaximizeBox = false;
-            this.MinimizeBox = false;
-            this.Name = "FormBarba";
-            this.ShowIcon = false;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Barba";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(590, 350);
+            Controls.Add(hairCalendar);
+            Controls.Add(label3);
+            Controls.Add(hr_ag);
+            Controls.Add(agendarBarba);
+            Controls.Add(barb_box);
+            Controls.Add(sobran_box);
+            Controls.Add(pigCab_box);
+            Controls.Add(pigBarb_box);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Controls.Add(nm_cliente);
+            MaximizeBox = false;
+            MinimizeBox = false;
+            Name = "FormBarba";
+            ShowIcon = false;
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Barba";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

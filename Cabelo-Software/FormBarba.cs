@@ -30,7 +30,7 @@ namespace Cabelo_Software
         NpgsqlConnection conn;
         Funcionario f = new Funcionario();
         Database dt = new Database();
-        
+
         public string getCalendar() { return this.hairCalendar.Value.ToString(); }
         public string getCliNome() { return nm_cliente.Text; }
 
@@ -38,7 +38,8 @@ namespace Cabelo_Software
         {
             string txt = "";
 
-            if (pigBarb_box.Checked) {
+            if (pigBarb_box.Checked)
+            {
                 txt += pigBarb_box.Text;
                 setTipo(txt);
             }

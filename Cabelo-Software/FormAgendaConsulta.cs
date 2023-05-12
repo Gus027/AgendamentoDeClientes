@@ -51,9 +51,7 @@ namespace Cabelo_Software
                     conn.Close();
                     dgvData.DataSource = null; //Reset dataGrid
                     dgvData.DataSource = dataT;
-
                 }
-
             }
             catch (Exception e)
             {

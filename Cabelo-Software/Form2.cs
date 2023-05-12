@@ -87,7 +87,7 @@ namespace Cabelo_Software
                             f1.Closed += (s, args) => this.Close();
                             f1.ShowDialog();
                         }
-                        MessageBox.Show("Erro a Logar!");
+                        MessageBox.Show("Usuario ou Senha incorreta");
                     }
                 }
             }
